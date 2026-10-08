@@ -6,7 +6,7 @@
       "method": "GET",
       "humanName": "my profile",
       "requestUrl": "/v1.0/me",
-      "docLink": "https://learn.microsoft.com/en-us/graph/api/user-get",
+      "docLink": "javascript:alert(document.domain)",
       "skipTest": false
     },
     {
